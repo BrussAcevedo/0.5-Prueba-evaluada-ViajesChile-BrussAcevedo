@@ -5,3 +5,38 @@ border: 0;
 background-size: cover;
 }
 
+
+header{
+    background-color: aqua;
+    background-size: cover;
+ 
+    
+}
+
+
+
+header .navbar{
+    align-items:first baseline;
+    height: 100px;
+    position: absolute;
+    z-index: 1000;
+    top: 0%;
+    width: 100%;
+
+}
+
+.carousel-inner{
+    object-fit: relative;
+
+}
+
+.contenedorCarousel{
+    width: auto;
+    position: center center;
+    overflow: hidden;
+
+}
+
+
+
+
