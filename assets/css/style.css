@@ -60,6 +60,7 @@ hr{
     justify-content: center;
     align-items: center;
     color: white;
+
  
 
 }
@@ -127,3 +128,18 @@ i{
     }
 }
 
+.footerP{
+    margin-left: 15%;
+    vertical-align: middle;
+    padding-top: 2%;
+}
+
+.footerIcons{
+    padding-left: 15%;
+}
+
+.footerIcons a:active{
+    text-decoration: none;
+    outline: none;
+    color: inherit;
+}
