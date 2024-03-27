@@ -5,22 +5,69 @@ border: 0;
 background-size: cover;
 }
 
+
+.f-semiBold600{
+        font-family: "Open Sans", sans-serif;
+        font-optical-sizing: auto;
+        font-weight: 500;
+        font-style: normal;
+        font-variation-settings:
+          "wdth" 100;
+}
+
+.f-regular400{
+    font-family: "Open Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    font-variation-settings:
+      "wdth" 100;
+}
+
+.f-16{
+    font-size: 16px;
+}
+
+.f-20{
+    font-size: 20px;
+}
+
+.f-25{
+    font-size: 25px;
+}
+
+.f-30{
+    font-size: 30px;
+}
+
+.f-color1{
+    color: white;
+}
+
+
 .ajuste-carousel-img{
     display: flex;
     aspect-ratio: 3/2;
     object-fit: cover;
     position: center center;
+    max-height: 1350px;
 }
 
 header .navbar{
     align-items:first baseline;
-    height: 60px;
-    position: absolute;
+    height: 70px;
     z-index: 1000;
     top: 0%;
     width: 100%;
 
+
 }
+
+.custom-background{
+    background-color: rgba(0, 255, 255, 0.247);
+}
+
+
 
 .navCustomPadding{
     padding-left: 10%;
@@ -74,7 +121,13 @@ i{
     margin-top: 0;
     margin-bottom: 0;
     font-size: 28px;
+    color: white;
+    margin-left: 2%;
+    margin-right: 2%;
+}
 
+i:hover{
+    color: rgb(0, 110, 255);
 }
 
 .contenedorDos{
@@ -86,11 +139,18 @@ i{
 }
 
 
-.card-body{
+.card{
     text-align: left !important;
     color: white;
-    
+    border-radius: 2px 2px 2px 2px;
+
 }
+
+.card-body{
+    border-radius: 0px 0px 2px 2px;
+    overflow: hidden;
+}
+
 
 .contendor-arregloImagen{
     overflow: hidden;  
@@ -106,6 +166,7 @@ i{
     width: 120%;
     position: center center;
     object-fit: cover;
+    border-radius: 2px;
 }
 
 
@@ -142,6 +203,9 @@ i{
     .parrafo{
         margin-bottom: 5%;
 
+    }
+    .navbar-collapse{
+        background-color: rgba(0, 255, 255, 0.185);
     }
 }
 

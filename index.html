@@ -16,7 +16,7 @@
   <!-- Fuentes Google Fonts -->
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,300;1,300&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Cabin:ital@0;1&family=Lobster&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Raleway:ital@0;1&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
 
   <!-- FontAwesome -->
   <script src="https://kit.fontawesome.com/d8f7c001f6.js" crossorigin="anonymous"></script>
@@ -33,6 +33,35 @@
 <body>
 
   <Header>
+    <nav class="navbar navbar-expand-lg fixed-top navbar-light custom-background" data-bs-theme="dark">
+      <div class="container-fluid">
+        <a class="navbar-brand logo-nav navCustomPadding" href="#">
+          <img src="assets/img/viajes.svg" alt="" width="50px">
+          Viajes Chile
+        </a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+          aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav ms-auto navCustomPadding ">
+            <li class="nav-item">
+              <a class="nav-link f-color1 f-regular400 f-16" aria-current="page" href="#">Inicio</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link f-color1 f-regular400 f-16" href="#">Quienes Somos</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link f-color1 f-regular400 f-16" href="#">Destacados</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link f-color1 f-regular400 f-16" href="#">Contacto</a>
+            </li>
+
+          </ul>
+        </div>
+      </div>
+    </nav>
 
     <section class="contenedorCarousel">
       <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
@@ -61,46 +90,18 @@
     </section>
 
 
-    <nav class="navbar navbar-expand-lg navbar-light" data-bs-theme="dark">
-      <div class="container-fluid">
-        <a class="navbar-brand logo-nav navCustomPadding" href="#">
-          <img src="assets/img/viajes.svg" alt="" width="50px">
-          Viajes Chile
-        </a>
-        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
-          aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarNav">
-          <ul class="navbar-nav ms-auto navCustomPadding">
-            <li class="nav-item">
-              <a class="nav-link" aria-current="page" href="#">Inicio</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">Quienes Somos</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">Destacados</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">Contacto</a>
-            </li>
 
-          </ul>
-        </div>
-      </div>
-    </nav>
   </Header>
 
 
   <section class="contenedorUno">
     <div>
-      <h2 class="text-center py-5">¿Quienes Somos?
+      <h2 class="text-center py-5 f-color1 f-semiBold600 f-30">¿Quienes Somos?
         <hr>
       </h2>
     </div>
 
-    <div class="container-fluid">
+    <div class="container-fluid f-color1 f-16 f-regular400">
       <div class="row d-flex justify-content-between">
         <div class="px-2 parrafo col-12 col-lg-4 justify-content-center justify-content-xl-start">
           <button type="button" class="px-0 btn btn-info boton1"><i class="fa-solid fa-plane"></i></button>
@@ -150,7 +151,7 @@
 
 
   <section class="contenedorDos">
-    <h2>DESTACADOS</h2>
+    <h2 class="f-semiBold600 f-30 f-color1">DESTACADOS</h2>
     <hr>
 
     <div class="container-fluid">
@@ -162,8 +163,8 @@
               <img src="assets/img/card1.jpg" class="card-img-top arregloImagen1" alt="...">
             </div>
             <div class="card-body bg-info">
-              <h5 class="card-title">Card title</h5>
-              <p class="card-text">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Odit magnam iusto, aperiam
+              <h5 class="card-title f-color1 f-20 f-semiBold600">Card title</h5>
+              <p class="card-text f-color1 f-16 f-regular400">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Odit magnam iusto, aperiam
                 numquam ab placeat eaque suscipit sit nemo nihil?</p>
             </div>
           </div>
@@ -176,8 +177,8 @@
                 height="185.64px">
             </div>
             <div class="card-body bg-info">
-              <h5 class="card-title">Card title</h5>
-              <p class="card-text">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Odit magnam iusto, aperiam
+              <h5 class="card-title f-color1 f-20 f-semiBold600">Card title</h5>
+              <p class="card-text f-color1 f-16 f-regular400">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Odit magnam iusto, aperiam
                 numquam ab placeat eaque suscipit sit nemo nihil?</p>
             </div>
           </div>
@@ -190,8 +191,8 @@
               <img src="assets/img/card3.jpg" class="card-img-top arregloImagen1" alt="...">
             </div>
             <div class="card-body bg-info">
-              <h5 class="card-title">Card title</h5>
-              <p class="card-text">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Odit magnam iusto, aperiam
+              <h5 class="card-title f-color1 f-20 f-semiBold600">Card title</h5>
+              <p class="card-text f-color1 f-16 f-regular400">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Odit magnam iusto, aperiam
                 numquam ab placeat eaque suscipit sit nemo nihil?</p>
             </div>
           </div>
@@ -204,8 +205,8 @@
             </div>
 
             <div class="card-body bg-info">
-              <h5 class="card-title">Card title</h5>
-              <p class="card-text">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Odit magnam iusto, aperiam
+              <h5 class="card-title f-color1 f-20 f-semiBold600">Card title</h5>
+              <p class="card-text f-color1 f-16 f-regular400">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Odit magnam iusto, aperiam
                 numquam ab placeat eaque suscipit sit nemo nihil?</p>
             </div>
           </div>
@@ -219,12 +220,12 @@
 
   <section class="formulario pb-5">
     <div class="text-center">
-      <h2>CONTACTO
+      <h2 class="f-color1 f-30 f-semiBold600">CONTACTO
         <hr>
       </h2>
 
-    </div>
-    <form>
+    </div> 
+    <form class="f-16 f-color1 f-regular400">
       <div class="form-group py-2">
         <label for="exampleFormControlInput1" class="pb-1">Nombre</label>
         <input type="name" class="form-control" id="exampleFormControlInput1">
@@ -243,15 +244,15 @@
     </form>
 
     <div class="botonEnviar pt-2">
-      <button type="button" class="btn btn-info">Enviar</button>
+      <button type="button" class="btn btn-info f-16 f-color1 f-regular400">Enviar</button>
     </div>
 
   </section>
 
   <footer class="container-fluid bg-info py-2">
-    <div class="row footerP">
+    <div class="row footerP ">
       <div class="col-6">
-        <p>VIAJES CHILE</p>
+        <p class="f-20 f-color1 f-regular600">VIAJES CHILE</p>
       </div>
 
       <div class="col-6 footerIcons py-auto">
