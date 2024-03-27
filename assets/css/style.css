@@ -89,6 +89,26 @@ i{
     background-color: black;
     text-align: center;
     padding-bottom: 5%;
+    padding-left: 7%;
+    padding-right: 7%;
 }
 
+.card-body{
+    text-align: left !important;
+    color: white;
+    
+}
 
+.contendor-arregloImagen{
+    overflow: hidden;  
+    width: auto;
+    height: 180px;
+    min-height: 37%;
+    max-height: 43%;
+    object-fit: cover;
+}
+
+.arregloImagen1{
+    width: 110%;
+    position: center center;
+}
