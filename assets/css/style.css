@@ -9,8 +9,8 @@ background-size: cover;
 header{
     background-color: aqua;
     background-size: cover;
- 
-    
+    max-height: 1200px;
+    overflow: hidden;
 }
 
 
@@ -27,26 +27,22 @@ header .navbar{
 
 .carousel-inner{
     object-fit: relative;
-
 }
 
 .contenedorCarousel{
-    width: auto;
-    position: center center;
-    overflow: hidden;
-
+ /*    width: auto;
+ */
 }
 
 .contenedorUno {
     background-color: black;
+    
 }
 
 hr{
     color: white;
-    width: 80%;
+    width: 100%;
     justify-content: center;
-    margin-left: 10%;
-    margin-right: 10%;
 }
 
 .contenedorUno .row{
@@ -56,7 +52,6 @@ hr{
 }
 
 .parrafo{
-    max-width: 30%;
     padding: 0% 2%;
 }
 
@@ -105,10 +100,18 @@ i{
     height: 180px;
     min-height: 37%;
     max-height: 43%;
-    object-fit: cover;
+   
 }
 
 .arregloImagen1{
     width: 110%;
     position: center center;
+    object-fit: cover;
+}
+
+
+.formulario{
+    padding-left: 10%;
+    padding-right: 10%;
+    background-color: black;
 }
