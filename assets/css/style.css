@@ -115,19 +115,6 @@ i{
     background-color: black;
 }
 
-@media(max-width:991px){
-    .boton2Hidden{
-        display: block !important;
-    }
-
-    .boton2{
-        display: none !important;
-    }
-    .parrafo{
-        margin-bottom: 5%;
-    }
-}
-
 .footerP{
     margin-left: 15%;
     vertical-align: middle;
@@ -143,3 +130,18 @@ i{
     outline: none;
     color: inherit;
 }
+
+@media(max-width:991px){
+    .boton2Hidden{
+        display: block !important;
+    }
+
+    .boton2{
+        display: none !important;
+    }
+    .parrafo{
+        margin-bottom: 5%;
+
+    }
+}
+
