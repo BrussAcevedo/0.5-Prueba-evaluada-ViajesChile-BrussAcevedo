@@ -37,6 +37,58 @@ header .navbar{
 
 }
 
+.contenedorUno {
+    background-color: black;
+}
 
+hr{
+    color: white;
+    width: 80%;
+    justify-content: center;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+.contenedorUno .row{
+    margin-left: 5%;
+    margin-right: 5%;
+    padding-bottom: 5%;
+}
+
+.parrafo{
+    max-width: 30%;
+    padding: 0% 2%;
+}
+
+.boton1{
+    width: 100% !important;
+    max-height: 50px;
+    border-radius: 1px !important;
+    border: 2px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+ 
+
+}
+
+.boton1:hover{
+    color: rgb(0, 110, 255) !important;
+    background-color: rgb(51, 240, 199) !important;
+}
+
+i{
+    margin-top: 0;
+    margin-bottom: 0;
+    font-size: 28px;
+
+}
+
+.contenedorDos{
+    background-color: black;
+    text-align: center;
+    padding-bottom: 5%;
+}
 
 
