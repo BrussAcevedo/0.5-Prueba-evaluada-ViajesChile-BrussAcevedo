@@ -5,19 +5,16 @@ border: 0;
 background-size: cover;
 }
 
-
-header{
-    background-color: aqua;
-    background-size: cover;
-    max-height: 1200px;
-    overflow: hidden;
+.ajuste-carousel-img{
+    display: flex;
+    aspect-ratio: 3/2;
+    object-fit: cover;
+    position: center center;
 }
-
-
 
 header .navbar{
     align-items:first baseline;
-    height: 100px;
+    height: 60px;
     position: absolute;
     z-index: 1000;
     top: 0%;
@@ -25,17 +22,21 @@ header .navbar{
 
 }
 
+.navCustomPadding{
+    padding-left: 10%;
+    padding-right: 10%;
+}
+
 .carousel-inner{
     object-fit: relative;
 }
 
-.contenedorCarousel{
- /*    width: auto;
- */
-}
+
 
 .contenedorUno {
     background-color: black;
+    padding-left: 10%;
+    padding-right: 10%;
     
 }
 
@@ -46,13 +47,8 @@ hr{
 }
 
 .contenedorUno .row{
-    margin-left: 5%;
-    margin-right: 5%;
-    padding-bottom: 5%;
-}
 
-.parrafo{
-    padding: 0% 2%;
+    padding-bottom: 5%;
 }
 
 .boton1{
@@ -84,9 +80,10 @@ i{
     background-color: black;
     text-align: center;
     padding-bottom: 5%;
-    padding-left: 7%;
-    padding-right: 7%;
+    padding-left: 10%;
+    padding-right: 10%;
 }
+
 
 .card-body{
     text-align: left !important;
@@ -99,12 +96,13 @@ i{
     width: auto;
     height: 180px;
     min-height: 37%;
-    max-height: 43%;
+    max-height: 40%;
    
 }
 
 .arregloImagen1{
-    width: 110%;
+    display: flex;
+    width: 120%;
     position: center center;
     object-fit: cover;
 }
@@ -115,3 +113,17 @@ i{
     padding-right: 10%;
     background-color: black;
 }
+
+@media(max-width:991px){
+    .boton2Hidden{
+        display: block !important;
+    }
+
+    .boton2{
+        display: none !important;
+    }
+    .parrafo{
+        margin-bottom: 5%;
+    }
+}
+
