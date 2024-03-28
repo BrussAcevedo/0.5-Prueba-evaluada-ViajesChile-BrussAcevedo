@@ -1,9 +1,17 @@
+html{
+    scroll-behavior: smooth;
+
+}
+
+
+
 * {
 margin: 0;
 padding: 0;
 border: 0;
 background-size: cover;
 }
+
 
 
 .f-semiBold600{
@@ -84,6 +92,7 @@ header .navbar{
     background-color: black;
     padding-left: 10%;
     padding-right: 10%;
+    padding-top: 2.2%;
     
 }
 
@@ -93,9 +102,13 @@ hr{
     justify-content: center;
 }
 
+a{
+    text-decoration: none;
+}
+
 .contenedorUno .row{
 
-    padding-bottom: 5%;
+    padding-bottom: 3%;
 }
 
 .boton1{
@@ -136,6 +149,7 @@ i:hover{
     padding-bottom: 5%;
     padding-left: 10%;
     padding-right: 10%;
+    padding-top: 6%;
 }
 
 
@@ -163,7 +177,7 @@ i:hover{
 
 .arregloImagen1{
     display: flex;
-    width: 120%;
+    width: 120% !important;
     position: center center;
     object-fit: cover;
     border-radius: 2px;
