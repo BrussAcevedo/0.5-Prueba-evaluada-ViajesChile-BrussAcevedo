@@ -1,8 +1,18 @@
+/* SmoothScroll config html */
 html{
     scroll-behavior: smooth;
 
 }
 
+
+/* Configuracion Tooltip Custom */
+.custom-tooltip {
+    --bs-tooltip-bg: #0051ff;
+    --bs-tooltip-color: var(--bs-white);
+  }
+
+
+/* Configuracion general del body */
 * {
 margin: 0;
 padding: 0;
@@ -10,10 +20,8 @@ border: 0;
 background-size: cover;
 }
 
-.tooltip-inner{
-    background-color: rgb(0, 89, 255) !important;
-    color: white !important;
-}
+
+/* Fuentes de texto */
 
 .f-semiBold600{
         font-family: "Open Sans", sans-serif;
@@ -54,6 +62,8 @@ background-size: cover;
 }
 
 
+/* Ajustes etiquetas */
+
 .ajuste-carousel-img{
     display: flex;
     aspect-ratio: 3/2;
@@ -76,8 +86,6 @@ header .navbar{
     background-color: rgba(0, 255, 255, 0.247);
 }
 
-
-
 .navCustomPadding{
     padding-left: 10%;
     padding-right: 10%;
@@ -86,8 +94,6 @@ header .navbar{
 .carousel-inner{
     object-fit: relative;
 }
-
-
 
 .contenedorUno {
     background-color: black;
@@ -153,7 +159,6 @@ i:hover{
     padding-top: 6%;
 }
 
-
 .card{
     text-align: left !important;
     color: white;
@@ -165,7 +170,6 @@ i:hover{
     border-radius: 0px 0px 2px 2px;
     overflow: hidden;
 }
-
 
 .contendor-arregloImagen{
     overflow: hidden;  
@@ -183,7 +187,6 @@ i:hover{
     object-fit: cover;
     border-radius: 2px;
 }
-
 
 .formulario{
     padding-left: 10%;
@@ -207,6 +210,9 @@ i:hover{
     color: inherit;
 }
 
+
+/* MediaQuery config */
+
 @media(max-width:991px){
     .boton2Hidden{
         display: block !important;
@@ -223,4 +229,25 @@ i:hover{
         background-color: rgba(0, 255, 255, 0.185);
     }
 }
+
+.mi-clase {
+    padding-left: 0.5rem !important;
+    padding-right: 0.5rem !important;
+    display: flex !important;
+    flex-wrap: wrap !important;
+    justify-content: center !important;
+}
+
+.mi-clase > * {
+    flex-grow: 1;
+}
+
+/* Estilos específicos para pantallas grandes */
+@media (min-width: 1200px) {
+    .mi-clase {
+        justify-content: space-evenly !important;
+    }
+}
+   
+
 

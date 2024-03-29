@@ -11,8 +11,6 @@
   <meta name="Description" content="rutas y caracteristicas de los lugares mas enmblematicos en chile">
   <meta name="keywords" content="viajes, avion, rutas, lugares">
 
-
-
   <!-- Fuentes Google Fonts -->
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -27,18 +25,19 @@
     integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
 
   <!-- Linkeos a archivos Internos -->
-  <link rel="shortcut icon" href="assets/img/favicon.png" type="image/x-icon">
-  <link rel="stylesheet" href="assets/css/style.css">
+  <link rel="shortcut icon" href="./assets/img/viajes.svg" type="image/x-icon">
+  <link rel="stylesheet" href="./assets/css/style.css">
 
 </head>
 
 <body>
 
   <Header>
+
     <nav class="navbar navbar-expand-lg fixed-top navbar-light custom-background" data-bs-theme="dark">
       <div class="container-fluid">
         <a class="navbar-brand logo-nav navCustomPadding" href="#">
-          <img src="assets/img/viajes.svg" alt="" width="50px">
+          <img src="./assets/img/viajes.svg" alt="" width="50px">
           Viajes Chile
         </a>
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
@@ -69,13 +68,13 @@
       <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
         <div class="carousel-inner">
           <div class="carousel-item active">
-            <img src="assets/img/carousel1.jpg" class="d-block w-100 ajuste-carousel-img" alt="...">
+            <img src="./assets/img/carousel1.jpg" class="d-block w-100 ajuste-carousel-img" alt="...">
           </div>
           <div class="carousel-item">
-            <img src="assets/img/carousel2.jpg" class="d-block w-100 ajuste-carousel-img" alt="...">
+            <img src="./assets/img/carousel2.jpg" class="d-block w-100 ajuste-carousel-img" alt="...">
           </div>
           <div class="carousel-item">
-            <img src="assets/img/carousel3.jpg" class="d-block w-100 ajuste-carousel-img" alt="...">
+            <img src="./assets/img/carousel3.jpg" class="d-block w-100 ajuste-carousel-img" alt="...">
           </div>
         </div>
         <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls"
@@ -90,8 +89,6 @@
         </button>
       </div>
     </section>
-
-
 
   </Header>
 
@@ -108,7 +105,8 @@
         <div class="px-2 parrafo col-12 col-lg-4 justify-content-center justify-content-xl-start">
 
           <a href="https://www.latamairlines.com/cl/es" target="_blank">
-            <button type="button" class="px-0 btn btn-info boton1" data-bs-toggle="tooltip" data-bs-placement="top" title="Comprar Boletos de Avión"><i class="fa-solid fa-plane"></i></button>
+            <button type="button" class="px-0 btn btn-info boton1" data-bs-toggle="tooltip" data-bs-placement="top"
+            data-bs-custom-class="custom-tooltip" title="Comprar Boletos de Avión"><i class="fa-solid fa-plane"></i></button>
           </a>
 
           <p class="mt-2 mb-2 mb-xl-5">Lorem ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus,
@@ -123,9 +121,10 @@
             illo?</p>
         </div>
 
-        <div class="px-2s parrafo col-12 col-lg-4 justify-content-center justify-content-xl-evenly">
+        <div class="px-2 parrafo col-12 col-lg-4 justify-content-center justify-content-xl-evenly">
           <a href="https://www.tripadvisor.cl/Attractions-g294291-Activities-c57-t66-Chile.html" target="_blank">
-            <button type="button" class="btn btn-info boton1 d-block d-lg-none" data-bs-toggle="tooltip" data-bs-placement="top" title="Ver Montañas en Chile"><i class="fa-solid fa-mountain"> </i></button>
+            <button type="button" class="btn btn-info boton1 d-block d-lg-none" data-bs-toggle="tooltip"
+              data-bs-placement="top" data-bs-custom-class="custom-tooltip" title="Ver Montañas en Chile"><i class="fa-solid fa-mountain"> </i></button>
           </a>
           <p class="mt-0 mb-2">Lorem ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus, excepturi culpa
             consectetur nemo alias minus ea ut sed blanditiis magni error repellendus neque laboriosam vitae possimus
@@ -137,14 +136,16 @@
             fugiat? Alias doloribus voluptate consequuntur minima natus reprehenderit voluptatum itaque iusto laudantium
             illo?</p>
           <a href="https://www.tripadvisor.cl/Attractions-g294291-Activities-c57-t66-Chile.html" target="_blank">
-            <button type="button" class="btn btn-info boton1 d-none d-lg-block" data-bs-toggle="tooltip" data-bs-placement="bottom" title="Ver Montañas en Chile"><i class="fa-solid fa-mountain"> </i></button>
+            <button type="button" class="btn btn-info boton1 d-none d-lg-block" data-bs-toggle="tooltip"
+              data-bs-placement="bottom" data-bs-custom-class="custom-tooltip" title="Ver Montañas en Chile"><i class="fa-solid fa-mountain"> </i></button>
           </a>
         </div>
 
         <div class="px-2 parrafo col-12 col-lg-4 justify-content-center justify-content-xl-end">
           <a href="https://www.chiletur.cl/" target="_blank">
-          <button type="button" class="px-0 btn btn-info boton1" data-bs-toggle="tooltip" data-bs-placement="top" title="Ver Rutas de Chile"> <i class="fa-solid fa-route"></i></button>
-        </a>
+            <button type="button" class="px-0 btn btn-info boton1" data-bs-toggle="tooltip" data-bs-placement="top" data-bs-custom-class="custom-tooltip"
+              title="Ver Rutas de Chile"> <i class="fa-solid fa-route"></i></button>
+          </a>
           <p class="mt-2 mb-5">Lorem ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus, excepturi culpa
             consectetur nemo alias minus ea ut sed blanditiis magni error repellendus neque laboriosam vitae possimus
             modi
@@ -157,8 +158,8 @@
         </div>
       </div>
     </div>
-  </section>
 
+  </section>
 
 
   <section id="Destacados" class="contenedorDos">
@@ -171,7 +172,7 @@
         <div class="px-0 px-xl-2 py-4 col-12 col-md-6 col-xl-3 d-flex justify-content-center justify-content-xl-start">
           <div class="card" style="width: 18rem;">
             <div class="contendor-arregloImagen">
-              <img src="assets/img/card1.jpg" class="card-img-top arregloImagen1" alt="...">
+              <img src="./assets/img/card1.jpg" class="card-img-top arregloImagen1" alt="...">
             </div>
             <div class="card-body bg-info">
               <h5 class="card-title f-color1 f-20 f-semiBold600">Lorem, ipsum dolor.</h5>
@@ -186,7 +187,7 @@
           class="px-0 px-xl-2 col-12 col-md-6 col-xl-3 d-flex py-4 justify-content-center cartas justify-content-xl-evenly">
           <div class="card" style="width: 18rem;">
             <div class="contendor-arregloImagen">
-              <img src="assets/img/card2.jpg" class="card-img-top arregloImagen1" alt="..." width="278.44"
+              <img src="./assets/img/card2.jpg" class="card-img-top arregloImagen1" alt="..." width="278.44"
                 height="185.64px">
             </div>
             <div class="card-body bg-info">
@@ -203,7 +204,7 @@
           class="px-0 px-xl-2 col-12 col-md-6 col-xl-3 d-flex py-4 justify-content-center cartas justify-content-xl-evenly">
           <div class="card" style="width: 18rem;">
             <div class="contendor-arregloImagen">
-              <img src="assets/img/card3.jpg" class="card-img-top arregloImagen1" alt="...">
+              <img src="./assets/img/card3.jpg" class="card-img-top arregloImagen1" alt="...">
             </div>
             <div class="card-body bg-info">
               <h5 class="card-title f-color1 f-20 f-semiBold600">Lorem, ipsum.</h5>
@@ -218,7 +219,7 @@
           class="py-4 px-xl-2 px-0 col-12 col-md-6 col-xl-3 d-flex justify-content-center cartas justify-content-xl-end">
           <div class="card" style="width: 18rem;">
             <div class="contendor-arregloImagen">
-              <img src="assets/img/card4.jpg" class="card-img-top arregloImagen1" alt="...">
+              <img src="./assets/img/card4.jpg" class="card-img-top arregloImagen1" alt="...">
             </div>
 
             <div class="card-body bg-info">
@@ -243,29 +244,31 @@
       </h2>
 
     </div>
-    <form class="f-16 f-color1 f-regular400">
+    <form id="formulario1" class="f-16 f-color1 f-regular400">
       <div class="form-group py-2">
-        <label for="exampleFormControlInput1" class="pb-1">Nombre</label>
-        <input type="name" class="form-control" id="exampleFormControlInput1">
+        <label for="inputNombre" class="pb-1">Nombre</label>
+        <input type="name" class="form-control" id="inputNombre">
       </div>
 
       <div class="form-group py-2">
-        <label for="exampleFormControlInput1" class="pb-1">Asunto</label>
-        <input type="subject" class="form-control" id="exampleFormControlInput1">
+        <label for="inputAsunto" class="pb-1">Asunto</label>
+        <input type="subject" class="form-control" id="inputAsunto">
       </div>
 
 
       <div class="form-group py-2">
-        <label for="exampleFormControlTextarea1" class="pb-1">Mensaje</label>
-        <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+        <label for="inputMensaje" class="pb-1">Mensaje</label>
+        <textarea class="form-control" id="inputMensaje" rows="3"></textarea>
       </div>
+      <div class="botonEnviar pt-2">
+        <button type="submit" class="btn btn-info f-16 f-color1 f-regular400" data-bs-toggle="tooltip"
+          data-bs-placement="bottom" data-bs-custom-class="custom-tooltip" title="Envía tu Mensaje">Enviar</button>
+      </div>
+  
     </form>
 
-    <div class="botonEnviar pt-2">
-      <button type="button" class="btn btn-info f-16 f-color1 f-regular400" data-bs-toggle="tooltip" data-bs-placement="bottom" title="Envía tu Mensaje">Enviar</button>
-    </div>
-
   </section>
+
 
   <footer class="container-fluid bg-info py-2">
     <div class="row footerP ">
@@ -274,32 +277,31 @@
       </div>
 
       <div class="col-6 footerIcons py-auto">
-        <a href="https://github.com/" target="_blank"><i class="fa-brands fa-square-github" data-bs-toggle="tooltip" data-bs-placement="top" title="Ir a GitHub!"></i></a>
-        <a href="https://www.linkedin.com/" target="_blank"> <i class="fa-brands fa-linkedin" data-bs-toggle="tooltip" data-bs-placement="top" title="Ir a LinkedIn!"></i></a>
-        <a href="https://www.facebook.com/" target="_blank"><i class="fa-brands fa-square-facebook" data-bs-toggle="tooltip" data-bs-placement="top" title="Ir a Facebook!"></i></a>
-        <a href="https://twitter.com/" target="_blank"><i class="fa-brands fa-square-twitter" data-bs-toggle="tooltip" data-bs-placement="top" title="Ir a Twitter!"></i></a>
+        <a href="https://github.com/" target="_blank"><i class="fa-brands fa-square-github" data-bs-toggle="tooltip"
+            data-bs-placement="top" data-bs-custom-class="custom-tooltip" title="Ir a GitHub!"></i></a>
+        <a href="https://www.linkedin.com/" target="_blank"> <i class="fa-brands fa-linkedin" data-bs-toggle="tooltip"
+            data-bs-placement="top" data-bs-custom-class="custom-tooltip" title="Ir a LinkedIn!"></i></a>
+        <a href="https://www.facebook.com/" target="_blank"><i class="fa-brands fa-square-facebook"
+            data-bs-toggle="tooltip" data-bs-placement="top" data-bs-custom-class="custom-tooltip" title="Ir a Facebook!"></i></a>
+        <a href="https://twitter.com/" target="_blank"><i class="fa-brands fa-square-twitter" data-bs-toggle="tooltip"
+            data-bs-placement="top" data-bs-custom-class="custom-tooltip" title="Ir a Twitter!"></i></a>
       </div>
     </div>
 
   </footer>
 
 
-
-
-
-
-    <!-- Linkeo scripts de js de bootstrap -->
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+  <!-- Linkeo scripts de js de bootstrap -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
     integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
     crossorigin="anonymous"></script>
 
-  <!-- Linkeo jQuery (Va antes que las demas scripts) -->
+  <!-- Linkeo jQuery (Va despues que el script de bootstrap) -->
   <script src="https://code.jquery.com/jquery-3.7.1.min.js"
     integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
 
   <!-- Linkeo a archivo JavaScript Interno -->
-  <script src="assets/js/script.js"></script>
-
+  <script src="./assets/js/script.js"></script>
 
 </body>
 
